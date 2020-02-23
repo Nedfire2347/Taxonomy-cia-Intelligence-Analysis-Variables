@@ -196,7 +196,7 @@
 	  "description": "Describe all internal taboo in application within the organization"
         },
         {
-          "value": "Security_Acccess,
+          "value": "Security_Acccess",
           "expanded": "Security_Acccess",
 	  "description": "Describe all internal security access in application within the organization"
         }
