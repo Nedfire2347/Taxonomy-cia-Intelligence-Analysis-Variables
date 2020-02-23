@@ -1,0 +1,248 @@
+{
+  "namespace": "CIA_Systemic_Variables",
+  "expanded": "CIA_Intelligence_Analysis_Variables_Systemic_Variables",
+  "description":"CIA_Systemic_Variables : Systemic Variables on the chart are those that affect both an intelligence organization and the analytic environment, CIA_Intelligence_Analysis_Variables : Taxonomy used by CIA for their information sharing program. They proposes a taxonomy for the field of intelligence.",
+  "refs": "Rob_Johnston : https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/csi-studies/studies/vol47no3/article05.html, @nedfire23 : Synthesis from scratch for MISP program",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "Organization-Internal",
+      "expanded": "CIA-Organization-Internal",
+      "description": "Describe the Organizational internal include the structure of the organization"
+    },
+    {
+      "value": "Organization-Internal-Culture-History",
+      "expanded": "CIA-Organization-Internal-Culture-History",
+      "description": "Describe the working culture history of the organization"
+    },
+    {
+      "value": "Organization-Internal-Culture-Social_Practice",
+      "expanded": "CIA-Organization-Internal-Culture-Social_Practice",
+      "description": "Describe the social practices within the organization"
+    },
+    {
+      "value": "Organization-Internal-Culture",
+      "expanded": "CIA-Organization-Internal-Culture",
+      "description": "Describe the working culture within the organization"
+    },
+    {
+      "value": "Organization-Internal-Resources_&_Incentives",
+      "expanded": "CIA-Organization-Internal-Resources_&_Incentives",
+      "description": "Describe the Ressource & incentives which the organization have within it"
+    },
+    {
+      "value": "Organization-Internal-Resources_&_Incentives-Technology",
+      "expanded": "CIA-Organization-Internal-Resources_&_Incentives-Technology",
+      "description": "Desccribe the internal assets of the organization"
+    },
+    {
+      "value": "Organization-External",
+      "expanded": "CIA-Organization-External",
+      "description": "Describe the Ressource linked to the organization"
+    },
+    {
+      "value": "Organization-Politics-Internal_Organization",
+      "expanded": "CIA-Organization-Politics-Internal_Organization",
+      "description": "Describe the internal politics within the organization"
+    },
+    {
+      "value": "Organization-Politics-External_National",
+      "expanded": "CIA-Organization-Politics-External_National",
+      "description": "Describe all national politics in application on the organization"
+    },
+    {
+      "value": "Organization-Politics-External_International-Security",
+      "expanded": "CIA-Organization-Politics-External_International-Security",
+      "description": "Describe all external international security issue of the organization"
+    },
+    {
+      "value": "Organization-Politics-External_International",
+      "expanded": "CIA-Organization-Politics-External_International",
+      "description": "Describe the Organization politics  of the organization"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "Organization-Internal",
+      "entry": [
+        {
+          "value": "Structure",
+          "expanded": "Structure",
+	  "description": "Describe the Organization Internal structure within the organization"
+        },
+        {
+          "value": "Leadership",
+          "expanded": "Leadership",
+	  "description": "Describe the Organization Internal leadership within the organization"
+        },
+        {
+          "value": "Hierarchy",
+          "expanded": "Hierarchy",
+	  "description": "Describe the Organization Internal hierarchy within the organization"
+        },
+        {
+          "value": "Work_Groups_Teams",
+          "expanded": "Work_Groups_Teams",
+	  "description": "Describe the individual and groups work habits within the organization"
+        }
+      ]
+    },
+    {
+      "predicate": "Organization-Internal-Culture-History",
+      "entry": [
+        {
+          "value": "Tradition",
+          "expanded": "Tradition",
+	  "description": "Describe the working culture history of the organization and the tradition in the organization"
+        }
+      ]
+    },
+    {
+      "predicate": "Organization-Internal-Culture-Social_Practice",
+      "entry": [
+        {
+          "value": "Taboo",
+          "expanded": "Taboo",
+	  "description": "Describe the social practices within the organization and the work taboos that could be in these organisation"
+        }
+      ]
+    },
+    {
+      "predicate": "Organization-Internal-Resources_&_Incentives",
+      "entry": [
+        {
+          "value": "Manpower",
+          "expanded": "Manpower_human resources",
+	  "description": "Desccribe the human resources of the organization"
+        },
+        {
+          "value": "Budget",
+          "expanded": "Budget",
+	  "description": "Desccribe the budget of the organization"
+        },
+        {
+          "value": "Facilities",
+          "expanded": "Facilities",
+	  "description": "Desccribe the facilities of the organization"
+        }
+      ]
+    },
+    {
+      "predicate": "Organization-Internal-Resources_&_Incentives-Technology",
+      "entry": [
+        {
+          "value": "Assets",
+          "expanded": "Assets",
+	  "description": "Desccribe the asset of the organization"
+        },
+        {
+          "value": "Budget",
+          "expanded": "Budget",
+	  "description": "Desccribe the internal buget of the organization"
+        }
+      ]
+    },
+    {
+      "predicate": "Organization-External",
+      "entry": [
+        {
+          "value": "Consummer_Needs",
+          "expanded": "Consummer_Needs",
+	  "description": "Describe the consummer needs from the organization"
+        },
+        {
+          "value": "Time_and_Imperatives",
+          "expanded": "Time_and_Imperatives",
+	  "description": "Describe the deadlines and imperative external from the organization"
+        },
+        {
+          "value": "Consumer_Use",
+          "expanded": "Consumer_Use",
+	  "description": "Describe the Consumer use by the organization"
+        },
+        {
+          "value": "Consumer_Structure",
+          "expanded": "Consumer_Structure",
+	  "description": "Describe the consumer structure used by the organization"
+        },
+        {
+          "value": "Consumer_Hierarchy",
+          "expanded": "Consumer_Hierarchy",
+	  "description": "Describe the consumer hierarchy and their importance for the organization"
+        },
+        {
+          "value": "Consumer_Reporting",
+          "expanded": "Consumer_Reporting",
+	  "description": "Describe the consummer reporting process from the organization"
+        }
+      ]
+    },
+    {
+      "predicate": "Organization-Politics-Internal_Organization",
+      "entry": [
+        {
+          "value": "Policy",
+          "expanded": "Policy",
+	  "description": "Describe all internal policy in application within the organization"
+        },
+        {
+          "value": "Tradition",
+          "expanded": "Tradition",
+	  "description": "Describe all internal tradition in application within the organization"
+        },
+        {
+          "value": "Taboo",
+          "expanded": "Taboo",
+	  "description": "Describe all internal taboo in application within the organization"
+        },
+        {
+          "value": "Security_Acccess,
+          "expanded": "Security_Acccess",
+	  "description": "Describe all internal security access in application within the organization"
+        }
+      ]
+    },
+    {
+      "predicate": "Organization-Politics-External_National",
+      "entry": [
+        {
+          "value": "Law",
+          "expanded": "Law",
+	  "description": "Describe all external national laws in application on the organization"
+        },
+        {
+          "value": "Policy",
+          "expanded": "Policy",
+	  "description": "Describe all external national policy in application on the organization"
+        }
+      ]
+    },
+    {
+      "predicate": "Organization-Politics-External_International-Security",
+      "entry": [
+        {
+          "value": "Denial",
+          "expanded": "Denial",
+	  "description": "Security issue : Describe all external international denial at the organization"
+        },
+        {
+          "value": "Deception",
+          "expanded": "Deception",
+	  "description": "Security issue : Describe all external international deception and collusion at the organization"
+        }
+      ]
+    },
+    {
+      "predicate": "Organization-Politics-External_International",
+      "entry": [
+        {
+          "value": "Policy",
+          "expanded": "Policy",
+	  "description": "Describe all external international politics at the organization"
+        }
+      ]
+    }
+  ]
+}
+
+

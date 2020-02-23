@@ -1,0 +1,208 @@
+{
+  "namespace": "CIA_Idiosyncratic_Variables",
+  "expanded": "CIA_Intelligence_Analysis_Variables_Idiosyncratic_Variables ",
+  "description": "CIA_Idiosyncratic_Variables : Idiosyncratic_Variables are those that impact on an individual and his or her analytic performance, CIA_Intelligence_Analysis_Variables : Taxonomy used by CIA for their information sharing program. They proposes a taxonomy for the field of intelligence.",
+  "refs": "Rob_Johnston : https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/csi-studies/studies/vol47no3/article05.html, @nedfire23 : Synthesis from scratch for MISP program",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "Worldview_Weltanschaunng-Affiliation",
+      "expanded": "CIA-Worldview_Weltanschaunng-Affiliation"
+      "description": "Describe the affiliations of the individual’s worldview"
+    },
+    {
+      "value": "Worldview_Weltanschaunng-Psychology",
+      "expanded": "CIA-Worldview_Weltanschaunng-Psychology"
+      "description": "Describe the psychology factors of the individual’s worldview"
+    },
+    {
+      "value": "Worldview_Weltanschaunng-Psychology-Cognitive_Processing",
+      "expanded": "CIA-Worldview_Weltanschaunng-Psychology-Cognitive_Processing"
+      "description": "Describe the cognitive process use of the individual’s worldview""
+    },
+    {
+      "value": "Worldview_Weltanschaunng-Education",
+      "expanded": "CIA-Worldview_Weltanschaunng-Education",
+      "description": "Individual’s worldview education"
+    },
+    {
+      "value": "Worldview_Weltanschaunng-Training",
+      "expanded": "CIA-Worldview_Weltanschaunng-Training"
+      "description": "Individual’s worldview training"
+    },
+    {
+      "value": "Worldview_Weltanschaunng-Readliness",
+      "expanded": "CIA-Worldview_Weltanschaunng-Readliness"
+      "description": "Individual’s worldview readliness"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "Worldview_Weltanschaunng-Affiliation",
+      "entry": [
+        {
+          "value": "Familial",
+          "expanded": "Familial",
+	  "description": "Describe the familial affiliations"
+        },
+        {
+          "value": "Cultural",
+          "expanded": "Cultural",
+	  "description": "Describe the cultural affiliations"
+        },
+        {
+          "value": "Ethnic",
+          "expanded": "Ethnic",
+	  "description": "Describe the ethnic affiliations"
+        },
+        {
+          "value": "Religious",
+          "expanded": "Religious",
+	  "description": "Describe the religious affiliations"
+        },
+        {
+          "value": "Social",
+          "expanded": "Social",
+	  "description": "Describe the social affiliations"
+        },
+        {
+          "value": "Linguistic",
+          "expanded": "Linguistic",
+	  "description": "Describe the linguistical affiliations"
+        },
+        {
+          "value": "Political",
+          "expanded": "Political",
+	  "description": "Describe the political affiliations"
+        }
+      ]
+    },
+    {
+      "predicate": "Worldview_Weltanschaunng-Psychology",
+      "entry": [
+        {
+          "value": "Bias",
+          "expanded": "Bias",
+	  "description": "Describe how the Individual’s worldview is biased"
+        },
+        {
+          "value": "Personnality_Profile",
+          "expanded": "Personnality_Profile",
+	  "description": "Describe the personality profile"
+        },
+        {
+          "value": "Security_Trust",
+          "expanded": "Security_Trust",
+	  "description": "Describe the trust personality profile"
+        },
+        {
+          "value": "Stress_Effects",
+          "expanded": "Stress_Effects",
+	  "description": "Describe the stress on the personality profile"
+        }
+      ]
+    },
+    {
+      "predicate": "Worldview_Weltanschaunng-Psychology-Cognitive_Processing",
+      "entry": [
+        {
+          "value": "Learning_Style",
+          "expanded": "Learning_Style",
+	  "description": "Individual’s worldview about Cognitive Processing are by Learning Style"
+        },
+        {
+          "value": "Information_Acquisition",
+          "expanded": "Information_Acquisition",
+	  "description": "Individual’s worldview about Cognitive Processing are by Information Acquisition"
+        },
+        {
+          "value": "Information_Processing",
+          "expanded": "Information_Processing",
+	  "description": "Individual’s worldview about Cognitive Processing are by Information Processing"
+        },
+        {
+          "value": "Expertise",
+          "expanded": "Expertise",
+	  "description": "Cognitive Processing are by expertise"
+        },
+        {
+          "value": "Problem_Solving",
+          "expanded": "Problem_Solving",
+	  "description": "Cognitive Processing are by problem solving"
+        },
+        {
+          "value": "Decision_Making",
+          "expanded": "Decision_Making",
+	  "description": "Cognitive Processing are by decision making"
+        },
+        {
+          "value": "Cognitive_Load",
+          "expanded": "Cognitive_Load",
+	  "description": "Cognitive Processing are by cognitive load"
+        },
+        {
+          "value": "Speed_Accuracy",
+          "expanded": "Speed_Accuracy",
+	  "description": "Cognitive Processing are by speed accuracy"
+        }
+      ]
+    },
+    {
+      "predicate": "Worldview_Weltanschaunng-Education",
+      "entry": [
+        {
+          "value": "Domain",
+          "expanded": "Domain",
+	  "description": "Domain education"
+        },
+        {
+          "value": "Location",
+          "expanded": "Location",
+	  "description": "Location education"
+        },
+        {
+          "value": "Mentor",
+          "expanded": "Mentor",
+	  "description": "Mentor education"
+        }
+      ]
+    },
+    {
+      "predicate": "Worldview_Weltanschaunng-Training",
+      "entry": [
+        {
+          "value": "Organizational",
+          "expanded": "Organizational",
+	  "description": "Organizational training"
+        },
+        {
+          "value": "Domain",
+          "expanded": "Domain",
+	  "description": "Domain training"
+        },
+        {
+          "value": "Procedural",
+          "expanded": "Procedural",
+	  "description": "Procedural training"
+        }
+      ]
+    },
+    {
+      "predicate": "Worldview_Weltanschaunng-Readliness",
+      "entry": [
+        {
+          "value": "Ressources",
+          "expanded": "Ressources",
+	  "description": "Facilities are needed for ressources"
+        },
+        {
+          "value": "Facilities",
+          "expanded": "Facilities",
+	  "description": "Facilities are needed for readliness"
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,198 @@
+{
+  "namespace": "CIA_Systematic_Variables",
+  "expanded": "CIA_Intelligence_Analysis_Variables_Systematic_Variables",
+  "description": " CIA_Systematic_Variables : Systematic Variables are those that affect the process of analysis itself, CIA_Intelligence_Analysis_Variables : Taxonomy used by CIA for their information sharing program. They proposes a taxonomy for the field of intelligence.",
+  "refs": "Rob_Johnston : https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/csi-studies/studies/vol47no3/article05.html, @nedfire23 : Synthesis from scratch for MISP program",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "User_Requirements_Operations-Information_Aquisition-Collection_Methods",
+      "expanded": "CIA-User_Requirements_Operations-Information_Aquisition-Collection_Methods",
+      "description": "Discribe how the information was aquired and collected by user"
+    },
+    {
+      "value": "User_Requirements_Operations-Information_Aquisition-Information_Reliability",
+      "expanded": "CIA-User_Requirements_Operations-Information_Aquisition-Information_Reliability",
+      "description": "Describe the information’s reliability case"
+    },
+    {
+      "value": "User_Requirements_Operations-Information_Aquisition-Information_Validity",
+      "expanded": "CIA-User_Requirements_Operations-Information_Aquisition-Information_Validity",
+      "description": "Describe the information’s validity case"
+    },
+    {
+      "value": "Information_Archive",
+      "expanded": "CIA-Information_Archive",
+      "description": "Describe how the information is archived"
+    },
+    {
+      "value": "Analytic_Methodology-Approach",
+      "expanded": "CIA-Analytic_Methodology-Approach",
+      "description": "Describe methodology approach for information analysing"
+    },
+    {
+      "value": "Analytic_Methodology-Information_Processing",
+      "expanded": "CIA-Analytic_Methodology-Information_Processing",
+      "description": "Describe the prescribed methods for analyzing and processing the information"
+    },
+    {
+      "value": "Analytic_Methodology-Decision_Strategies",
+      "expanded": "Analytic_Methodology-Decision_Strategies",
+      "description": "Describe the decision strategies"
+    },
+    {
+      "value": "Analytic_Methodology-Reporting",
+      "expanded": "CIA-Analytic_Methodology-Reporting",
+      "description": "Describe the methodology reporting used in analytic"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "User_Requirements_Operations-Information_Aquisition-Collection_Methods",
+      "entry": [
+        {
+          "value": "Overt",
+          "expanded": "Overt",
+	  "description": "Discribe how the information was collected by overt methods"
+        },
+        {
+          "value": "Covert",
+          "expanded": "Covert",
+	  "description": "Discribe how the information was collected by covert methods"
+        }
+      ]
+    },
+    {
+      "predicate": "User_Requirements_Operations-Information_Aquisition-Information_Reliability",
+      "entry": [
+        {
+          "value": "Reproductible",
+          "expanded": "Reproductible",
+	  "description": "The information reliable because reproductible"
+        },
+        {
+          "value": "Consistent",
+          "expanded": "Consistent",
+	  "description": "The information reliable because consistent"
+        }
+      ]
+    },
+    {
+      "predicate": "User_Requirements_Operations-Information_Aquisition-Information_Validity",
+      "entry": [
+        {
+          "value": "Historical",
+          "expanded": "Historical",
+	  "description": "The information valid because historical"
+        },
+        {
+          "value": "Single_Source",
+          "expanded": "Single_Source",
+	  "description": "The information valid because coming from a single source"
+        },
+        {
+          "value": "Dual_Source",
+          "expanded": "Dual_Source",
+	  "description": "The information valid because coming from a dual source"
+        },
+        {
+          "value": "Triangulation",
+          "expanded": "Triangulation",
+	  "description": "The information valid because coming from triangualation
+        }
+      ]
+    },
+    {
+      "predicate": "Information_Archive",
+      "entry": [
+        {
+          "value": "Storage",
+          "expanded": "Storage",
+	  "description": "The information are archived by Storage"
+        },
+        {
+          "value": "Access",
+          "expanded": "Access",
+	  "description": "The information are archived by Access"
+        },
+        {
+          "value": "Correlation",
+          "expanded": "Correlation",
+	  "description": "The information are archived by Correlation"
+        },
+        {
+          "value": "Retrieval",
+          "expanded": "Retrieval",
+	  "description": "The information are archived by Retrieval"
+        }
+      ]
+    },
+    {
+      "predicate": "Analytic_Methodology-Approach",
+      "entry": [
+        {
+          "value": "Intuitive",
+          "expanded": "Intuitive",
+	  "description": "The methodology approach is intuitive"
+        },
+        {
+          "value": "Structured",
+          "expanded": "Structured",
+	  "description": "The methodology approach is structured"
+        },
+        {
+          "value": "Semi_Structured",
+          "expanded": "Semi_Structured",
+	  "description": "The methodology approach is semi-structured"
+        }
+      ]
+    },
+    {
+      "predicate": "Analytic_Methodology-Information_Processing",
+      "entry": [
+        {
+          "value": "Historical_Information",
+          "expanded": "Historical_Information",
+	  "description": "The information processing are about historical information"
+        },
+        {
+          "value": "Current_Information",
+          "expanded": "Current_Information",
+	  "description": "he information processing are about current information"
+        }
+      ]
+    },
+    {
+      "predicate": "Analytic_Methodology-Decision_Strategies",
+      "entry": [
+        {
+          "value": "Estimative",
+          "expanded": "Estimative",
+	  "description": "The strategies of decision was estimative"
+        },
+        {
+          "value": "Predictive",
+          "expanded": "Predictive",
+	  "description": "The strategies of decision was predictive"
+        }
+      ]
+    },
+    {
+      "predicate": "Analytic_Methodology-Reporting",
+      "entry": [
+        {
+          "value": "Verbal_Methods",
+          "expanded": "Verbal_Methods",
+	  "description": "The metodology reporting was by verbal methods"
+        },
+        {
+          "value": "Written_Methods",
+          "expanded": "Written_Methods",
+	  "description": "The metodology reporting was by written methods"
+        }
+      ]
+    }
+  ]
+}
+
+

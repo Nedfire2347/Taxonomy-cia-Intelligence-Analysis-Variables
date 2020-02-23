@@ -1,0 +1,183 @@
+{
+  "namespace": "CIA_Communicative_Variables",
+  "expanded": "CIA_Intelligence_Analysis_Variables_Formal-Intra_Organization",
+  "description": "CIA_Communicative_Variables : Communicative_Variables are those affect interaction within and between groups, CIA_Intelligence_Analysis_Variables : Taxonomy used by CIA for their information sharing program. They proposes a taxonomy for the field of intelligence.",
+  "refs": "Rob_Johnston : https://www.cia.gov/library/center-for-the-study-of-intelligence/csi-publications/csi-studies/studies/vol47no3/article05.html, @nedfire23 : Synthesis from scratch for MISP program",
+  "version": 1,
+  "predicates": [
+    {
+      "value": "Formal-Inter_Organization",
+      "expanded": "CIA-Formal-Inter_Organization",
+      "description": "Describe formal communications within an organization"
+    },
+    {
+      "value": "Formal-Intra_Organization",
+      "expanded": "CIA-Formal-Intra_Organization",
+      "description": "Describe formal communications among organizations"
+    },
+    {
+      "value": "Formal-Individual",
+      "expanded": "CIA-Formal-Individual",
+      "description": "Describe formal communications between individual"
+    },
+    {
+      "value": "Informal-Inter_Organization",
+      "expanded": "CIA-Informal-Inter_Organization",
+      "description": "Describe informal communications within an organization"
+    },
+    {
+      "value": "Informal-Intra_Organization",
+      "expanded": "CIA-Informal-Intra_Organization",
+      "description": "Describe informal communications among organizations"
+    },
+    {
+      "value": "Informal-Individual",
+      "expanded": "CIA-Informal-Individual",
+      "description": "Describe informal communications between individual"
+    },
+    {
+      "value": "Technology",
+      "expanded": "CIA-Technology",
+      "description": "Describe technology method used for communicate"
+    }
+  ],
+  "values": [
+    {
+      "predicate": "Formal-Inter_Organization",
+      "entry": [
+        {
+          "value": "Hierachical",
+          "expanded": "Hierachical",
+	  "description": "Describe formal communication methods among Hierarchy"
+        },
+        {
+          "value": "Inter_Division",
+          "expanded": "Inter_Division",
+	  "description": "Describe formal communication methods among inter division"
+        },
+        {
+          "value": "Inter_Group",
+          "expanded": "Inter_Group",
+	  "description": "Describe formal communication methods among inter group"
+        }
+      ]
+    },
+    {
+      "predicate": "Formal-Intra_Organization",
+      "entry": [
+        {
+          "value": "Hierachical",
+          "expanded": "Hierachical",
+	  "description": "Describe formal communication methods among organizations Hierarchy"
+        },
+        {
+          "value": "Intra_Division",
+          "expanded": "Intra_Division",
+	  "description": "Describe formal communication methods among intra division"
+        },
+        {
+          "value": "Intra_Group",
+          "expanded": "Intra_Group",
+	  "description": "Describe formal communication methods among intra group"
+        }
+      ]
+    },
+    {
+      "predicate": "Formal-Individual",
+      "entry": [
+        {
+          "value": "Hierachical",
+          "expanded": "Hierachical",
+	  "description": "Describe formal communication method from Hierarchy to an individual one"
+        },
+        {
+          "value": "Inter_Group",
+          "expanded": "Inter_Group",
+	  "description": "Describe formal communication method from an inter group to an individual one"
+        },
+        {
+          "value": "Intra_Group",
+          "expanded": "Intra_Group",
+	  "description": "Describe formal communication method from an intra group to an individual one"
+        }
+      ]
+    },
+    {
+      "predicate": "Informal-Inter_Organization",
+      "entry": [
+        {
+          "value": "Hierachical",
+          "expanded": "Hierachical",
+	  "description": "Describe informal communication methods among Hierarchy"
+        },
+        {
+          "value": "Inter_Division",
+          "expanded": "Inter_Division",
+	  "description": "Describe informal communication methods among inter division"
+        },
+        {
+          "value": "Inter_Group",
+          "expanded": "Inter_Group",
+	  "description": "Describe informal communication methods among inter group""
+        }
+      ]
+    },
+    {
+      "predicate": "Informal-Intra_Organization",
+      "entry": [
+        {
+          "value": "Hierachical",
+          "expanded": "Hierachical",
+	  "description": "Describe informal communication methods among organizations Hierarchy"
+        },
+        {
+          "value": "Intra_Division",
+          "expanded": "Intra_Division",
+	  "description": "Describe formal communication methods among organizations Hierarchy"
+        },
+        {
+          "value": "Intra_Group",
+          "expanded": "Intra_Group",
+	  "description": "Describe informal communication methods among intra group"
+        }
+      ]
+    },
+    {
+      "predicate": "Informal-Individual",
+      "entry": [
+        {
+          "value": "Hierachical",
+          "expanded": "Hierachical",
+	  "description": "Describe informal communication method from Hierarchy to an individual one"
+        },
+        {
+          "value": "Inter_Division",
+          "expanded": "Inter_Group",
+	  "description": "Describe formal communication method from an inter group to an individual one"
+        },
+        {
+          "value": "Intra_Group",
+          "expanded": "Intra_Group",
+	  "description": "Describe formal communication method from an intra group to an individual one"
+        }
+      ]
+    },
+    {
+      "predicate": "Technology",
+      "entry": [
+        {
+          "value": "Networked_Analysis",
+          "expanded": "Networked_Analysis",
+	  "description": "Technology used a network (social, technical,...) to function"
+        },
+        {
+          "value": "Collaboration",
+          "expanded": "Collaboration",
+	  "description": "Technology used a collaborator(s) to function"
+        }
+      ]
+    }
+  ]
+}
+
+
